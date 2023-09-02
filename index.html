@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Fatchan Muhammad Hakim</title>
+
+        <!-- CSS Start-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="text/css">
+        <!-- CSS End-->
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    </head>
+    <body>
+        
+        <div class="container-form">
+            <table class="container-Table" align="center" border="0" cellspacing="0" cellpadding="10" width="100%">
+                <form id="form" class="container-fothead" action="" method="post">
+                    <thead class="container-thead">
+                        <tr class="container-tr">
+                            <th class="container-th">RS. Game Lab Indonesia</th>
+                        </tr>
+                    </thead>
+                    <tbody class="container-tbody">
+                        <tr class="container-trtbody">
+                            <td  class="tdtd">
+                                <label class="label" for="">ID Pasien</label>
+                                <input type="text" name="idpasien" id="idpasien" placeholder="Masukan ID Pasien">
+                                <button class="" type="button" name="search" onclick="cari()">Cari</button>
+                                
+                            </td>
+                        </tr>
+                        
+                        <tr class="container-trtbody">
+                            <td  class="tdtd">
+                                <label class="labelab" for="">Nama Lengkap</label>
+                                <input type="text" name="idpasien" id="nama" placeholder="Masukan Nama Anda">
+                            </td>
+                        </tr>
+
+                        <tr class="container-trtbody">
+                            <td  class="tdtd">
+                                <label class="labelab" id="lp" for="">Alamat</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                <textarea type="text" name="idpasien" id="alamat" cols="20" rows="10"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr class="container-trtbody">
+                            <td  class="tdtd">
+                                <label class="labelab" for="">Penyakit</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                <input type="text" name="idpasien" id="penyakit" placeholder="Masukan Penyakit Anda">
+                            </td>
+                        </tr>
+
+                        <tr class="container-trtbody">
+                            <td  class="tdtd">
+                                <label class="labelab" for="">No Ruang</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                <input type="text" name="idpasien" id="noruang" placeholder="Masukan No Ruang">
+                            </td>
+                        </tr>
+
+                        <tr class="container-trtbody">
+                            <td  class="tdtd">
+                                <label class="labelab" for="">BPJS</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                <input type="text" name="idpasien" id="bpjs" placeholder="Masukan BPJS">
+                            </td>
+                        </tr>
+
+                        <tr class="container-trtbody">
+                            <td class="tdtd">
+                                <label class="labelab" for="">Tanggal Masuk</label>
+                                <input type="text" id="datemasuk" placeholder="dd/mm/yyyy">
+                            </td>
+                        </tr>
+
+                        <tr class="container-trtbody">
+                            <td class="tdtd">
+                                <label class="labelab" for="">Tanggal Keluar</label>
+                                <input type="text" id="datekeluar" placeholder="dd/mm/yyyy">
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr colspan="2">
+                            <th>
+                                <button class="llln" type="button" name="save" onclick="savedata()">Save</button>
+                                <button class="lln2" type="button" name="save" onclick="showdata()">Show</button>
+                                <button class="lln3" type="button" name="save" onclick="deletedata()">Delete</button>
+                            </th>
+                        </tr>
+                        
+                    </tfoot>
+                </form>
+            </table>
+
+            <table border="1" cellpadding="8" style=" position: relative; font-size: 12px; margin-top: 40px; margin-left: 10px;
+            font-weight:bold; text-transform: uppercase;" id="tabeldata">
+                <tr class="th">
+                    <th class="th">ID Pasien</th>
+                    <th class="th">Nama Lengkap</th>
+                    <th class="th">Alamat</th>
+                    <th class="th">Penyakit</th>
+                    <th class="th">No Ruang</th>
+                    <th class="th">BPJS</th>
+                    <th class="th">Tanggal Masuk</th>
+                    <th class="th">Tanggal Keluar</th>
+                    <th class="th">Aksi</th>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+
+    <script src="script.js"></script>
+</html>

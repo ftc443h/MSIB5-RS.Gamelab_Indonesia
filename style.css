@@ -1,0 +1,80 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+.container-thead{
+    background-color: lightseagreen;
+}
+
+.container-th{
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    text-transform: uppercase;
+    cursor: no-drop;
+    color: white;
+}
+
+.tdtd{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tdtd1{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tdtd .label{
+    position: relative;
+    padding: 100px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    text-transform: uppercase;
+    color: lightseagreen;
+}
+
+.tdtd .labelab{
+    position: relative;
+    padding: 75px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    text-transform: uppercase;
+    color: lightseagreen;
+}
+
+input::placeholder{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.llln{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 80px;
+}
+
+.lln2{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 8px;
+}
+
+.lln3{
+    position: absolute;
+    margin-left: 182px;
+    margin-top: 8px;
+}
